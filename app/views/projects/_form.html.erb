@@ -1,0 +1,22 @@
+<%= form_for @project do |f| %>
+	<%= f.label :title, 'Title' %>
+	<%= f.text_field :title %>
+	<br>
+	<br>
+	<%= f.label :abstract %>
+	<%= f.text_field :abstract %>
+	<br>
+	<br>
+	<%= f.label :description %>
+	<%= f.text_field :description %>
+	<br>
+	<br>
+	<%= f.label :budget %>
+	<%= f.text_field :budget %>
+	<br>
+	<br>
+	<%= f.submit button_name %>
+	<%= link_to 'Cancel', :back %>
+	<br>
+
+<% end %>
