@@ -1,0 +1,27 @@
+<h1>Top Projects</h1>
+<table>
+<thead>
+<th>Title</th>
+<th>Description</th>
+<th>Abstract</th>
+<th>Bugdet</th>
+
+</thead>
+<tbody>
+
+<% @projects.each do |project| %>
+
+<tr>
+	<td><%= project.title%></td>
+	<td><%= project.abstract%></td>
+	<td><%= project.description%></td>
+	<td><%= project.budget%></td>
+
+	
+</tr>
+
+<% end %>
+
+</tbody>
+
+</table>

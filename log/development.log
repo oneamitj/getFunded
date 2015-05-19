@@ -6741,3 +6741,1723 @@ ActionController::RoutingError (No route matches [GET] "/assets/all.js"):
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-05-18 16:53:09 +0545
 Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2015-05-19 08:51:22 +0545
+
+Mysql2::Error (Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)):
+  mysql2 (0.3.18) lib/mysql2/client.rb:70:in `connect'
+  mysql2 (0.3.18) lib/mysql2/client.rb:70:in `initialize'
+  activerecord (3.2.2) lib/active_record/connection_adapters/mysql2_adapter.rb:16:in `new'
+  activerecord (3.2.2) lib/active_record/connection_adapters/mysql2_adapter.rb:16:in `mysql2_connection'
+  activerecord (3.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:277:in `new_connection'
+  activerecord (3.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:287:in `checkout_new_connection'
+  activerecord (3.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:235:in `block (2 levels) in checkout'
+  activerecord (3.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:230:in `loop'
+  activerecord (3.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:230:in `block in checkout'
+  /Users/cloudfactory/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (3.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:229:in `checkout'
+  activerecord (3.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:95:in `connection'
+  activerecord (3.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:374:in `retrieve_connection'
+  activerecord (3.2.2) lib/active_record/connection_adapters/abstract/connection_specification.rb:168:in `retrieve_connection'
+  activerecord (3.2.2) lib/active_record/connection_adapters/abstract/connection_specification.rb:142:in `connection'
+  activerecord (3.2.2) lib/active_record/query_cache.rb:67:in `rescue in call'
+  activerecord (3.2.2) lib/active_record/query_cache.rb:61:in `call'
+  activerecord (3.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:443:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `_run__2748643266346513353__call__2514691066090414888__callbacks'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.2) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.2) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.2) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/static.rb:61:in `call'
+  railties (3.2.2) lib/rails/engine.rb:479:in `call'
+  railties (3.2.2) lib/rails/application.rb:220:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.2) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/cloudfactory/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/cloudfactory/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/cloudfactory/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/cloudfactory/.rvm/gems/ruby-2.1.2@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.8ms)
+  Rendered /Users/cloudfactory/.rvm/gems/ruby-2.1.2@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.7ms)
+  Rendered /Users/cloudfactory/.rvm/gems/ruby-2.1.2@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-19 08:53:23 +0545
+
+Mysql2::Error (Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)):
+  mysql2 (0.3.18) lib/mysql2/client.rb:70:in `connect'
+  mysql2 (0.3.18) lib/mysql2/client.rb:70:in `initialize'
+  activerecord (3.2.2) lib/active_record/connection_adapters/mysql2_adapter.rb:16:in `new'
+  activerecord (3.2.2) lib/active_record/connection_adapters/mysql2_adapter.rb:16:in `mysql2_connection'
+  activerecord (3.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:277:in `new_connection'
+  activerecord (3.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:287:in `checkout_new_connection'
+  activerecord (3.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:235:in `block (2 levels) in checkout'
+  activerecord (3.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:230:in `loop'
+  activerecord (3.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:230:in `block in checkout'
+  /Users/cloudfactory/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (3.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:229:in `checkout'
+  activerecord (3.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:95:in `connection'
+  activerecord (3.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:374:in `retrieve_connection'
+  activerecord (3.2.2) lib/active_record/connection_adapters/abstract/connection_specification.rb:168:in `retrieve_connection'
+  activerecord (3.2.2) lib/active_record/connection_adapters/abstract/connection_specification.rb:142:in `connection'
+  activerecord (3.2.2) lib/active_record/query_cache.rb:67:in `rescue in call'
+  activerecord (3.2.2) lib/active_record/query_cache.rb:61:in `call'
+  activerecord (3.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:443:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `_run__4132102313447284959__call__4450642473175256858__callbacks'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.2) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.2) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.2) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/static.rb:61:in `call'
+  railties (3.2.2) lib/rails/engine.rb:479:in `call'
+  railties (3.2.2) lib/rails/application.rb:220:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.2) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/cloudfactory/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/cloudfactory/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/cloudfactory/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/cloudfactory/.rvm/gems/ruby-2.1.2@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.7ms)
+  Rendered /Users/cloudfactory/.rvm/gems/ruby-2.1.2@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.7ms)
+  Rendered /Users/cloudfactory/.rvm/gems/ruby-2.1.2@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-19 08:53:54 +0545
+
+Mysql2::Error (Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)):
+  mysql2 (0.3.18) lib/mysql2/client.rb:70:in `connect'
+  mysql2 (0.3.18) lib/mysql2/client.rb:70:in `initialize'
+  activerecord (3.2.2) lib/active_record/connection_adapters/mysql2_adapter.rb:16:in `new'
+  activerecord (3.2.2) lib/active_record/connection_adapters/mysql2_adapter.rb:16:in `mysql2_connection'
+  activerecord (3.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:277:in `new_connection'
+  activerecord (3.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:287:in `checkout_new_connection'
+  activerecord (3.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:235:in `block (2 levels) in checkout'
+  activerecord (3.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:230:in `loop'
+  activerecord (3.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:230:in `block in checkout'
+  /Users/cloudfactory/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (3.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:229:in `checkout'
+  activerecord (3.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:95:in `connection'
+  activerecord (3.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:374:in `retrieve_connection'
+  activerecord (3.2.2) lib/active_record/connection_adapters/abstract/connection_specification.rb:168:in `retrieve_connection'
+  activerecord (3.2.2) lib/active_record/connection_adapters/abstract/connection_specification.rb:142:in `connection'
+  activerecord (3.2.2) lib/active_record/query_cache.rb:67:in `rescue in call'
+  activerecord (3.2.2) lib/active_record/query_cache.rb:61:in `call'
+  activerecord (3.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:443:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `_run__2371728444993688421__call__2375900908859996337__callbacks'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.2) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.2) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.2) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/static.rb:61:in `call'
+  railties (3.2.2) lib/rails/engine.rb:479:in `call'
+  railties (3.2.2) lib/rails/application.rb:220:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.2) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/cloudfactory/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/cloudfactory/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/cloudfactory/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/cloudfactory/.rvm/gems/ruby-2.1.2@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.8ms)
+  Rendered /Users/cloudfactory/.rvm/gems/ruby-2.1.2@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.5ms)
+  Rendered /Users/cloudfactory/.rvm/gems/ruby-2.1.2@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-19 08:53:57 +0545
+
+Mysql2::Error (Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)):
+  mysql2 (0.3.18) lib/mysql2/client.rb:70:in `connect'
+  mysql2 (0.3.18) lib/mysql2/client.rb:70:in `initialize'
+  activerecord (3.2.2) lib/active_record/connection_adapters/mysql2_adapter.rb:16:in `new'
+  activerecord (3.2.2) lib/active_record/connection_adapters/mysql2_adapter.rb:16:in `mysql2_connection'
+  activerecord (3.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:277:in `new_connection'
+  activerecord (3.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:287:in `checkout_new_connection'
+  activerecord (3.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:235:in `block (2 levels) in checkout'
+  activerecord (3.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:230:in `loop'
+  activerecord (3.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:230:in `block in checkout'
+  /Users/cloudfactory/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (3.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:229:in `checkout'
+  activerecord (3.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:95:in `connection'
+  activerecord (3.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:374:in `retrieve_connection'
+  activerecord (3.2.2) lib/active_record/connection_adapters/abstract/connection_specification.rb:168:in `retrieve_connection'
+  activerecord (3.2.2) lib/active_record/connection_adapters/abstract/connection_specification.rb:142:in `connection'
+  activerecord (3.2.2) lib/active_record/query_cache.rb:67:in `rescue in call'
+  activerecord (3.2.2) lib/active_record/query_cache.rb:61:in `call'
+  activerecord (3.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:443:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `_run__2371728444993688421__call__2375900908859996337__callbacks'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.2) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.2) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.2) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/static.rb:61:in `call'
+  railties (3.2.2) lib/rails/engine.rb:479:in `call'
+  railties (3.2.2) lib/rails/application.rb:220:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.2) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/cloudfactory/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/cloudfactory/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/cloudfactory/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/cloudfactory/.rvm/gems/ruby-2.1.2@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.8ms)
+  Rendered /Users/cloudfactory/.rvm/gems/ruby-2.1.2@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/cloudfactory/.rvm/gems/ruby-2.1.2@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-19 08:53:59 +0545
+
+Mysql2::Error (Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)):
+  mysql2 (0.3.18) lib/mysql2/client.rb:70:in `connect'
+  mysql2 (0.3.18) lib/mysql2/client.rb:70:in `initialize'
+  activerecord (3.2.2) lib/active_record/connection_adapters/mysql2_adapter.rb:16:in `new'
+  activerecord (3.2.2) lib/active_record/connection_adapters/mysql2_adapter.rb:16:in `mysql2_connection'
+  activerecord (3.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:277:in `new_connection'
+  activerecord (3.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:287:in `checkout_new_connection'
+  activerecord (3.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:235:in `block (2 levels) in checkout'
+  activerecord (3.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:230:in `loop'
+  activerecord (3.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:230:in `block in checkout'
+  /Users/cloudfactory/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (3.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:229:in `checkout'
+  activerecord (3.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:95:in `connection'
+  activerecord (3.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:374:in `retrieve_connection'
+  activerecord (3.2.2) lib/active_record/connection_adapters/abstract/connection_specification.rb:168:in `retrieve_connection'
+  activerecord (3.2.2) lib/active_record/connection_adapters/abstract/connection_specification.rb:142:in `connection'
+  activerecord (3.2.2) lib/active_record/query_cache.rb:67:in `rescue in call'
+  activerecord (3.2.2) lib/active_record/query_cache.rb:61:in `call'
+  activerecord (3.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:443:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `_run__2371728444993688421__call__2375900908859996337__callbacks'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.2) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.2) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.2) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/static.rb:61:in `call'
+  railties (3.2.2) lib/rails/engine.rb:479:in `call'
+  railties (3.2.2) lib/rails/application.rb:220:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.2) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/cloudfactory/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/cloudfactory/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/cloudfactory/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/cloudfactory/.rvm/gems/ruby-2.1.2@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.7ms)
+  Rendered /Users/cloudfactory/.rvm/gems/ruby-2.1.2@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/cloudfactory/.rvm/gems/ruby-2.1.2@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-19 08:55:38 +0545
+Processing by ProjectsController#index as HTML
+  [1m[36mProject Load (0.4ms)[0m  [1mSELECT `projects`.* FROM `projects` [0m
+  Rendered projects/index.html.erb within layouts/application (16.9ms)
+Completed 200 OK in 61ms (Views: 52.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/all.js" for 127.0.0.1 at 2015-05-19 08:55:38 +0545
+Served asset /all.js - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/all.js"):
+  actionpack (3.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.2) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.2) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.2) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/static.rb:61:in `call'
+  railties (3.2.2) lib/rails/engine.rb:479:in `call'
+  railties (3.2.2) lib/rails/application.rb:220:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.2) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/cloudfactory/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/cloudfactory/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/cloudfactory/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/cloudfactory/.rvm/gems/ruby-2.1.2@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-05-19 08:55:38 +0545
+Served asset /application.css - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-05-19 08:55:38 +0545
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/projects/new" for 127.0.0.1 at 2015-05-19 08:55:42 +0545
+Processing by ProjectsController#new as HTML
+  Rendered projects/_form.html.erb (69.4ms)
+  Rendered projects/new.html.erb within layouts/application (86.4ms)
+Completed 200 OK in 94ms (Views: 93.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/all.js" for 127.0.0.1 at 2015-05-19 08:55:42 +0545
+Served asset /all.js - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/all.js"):
+  actionpack (3.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.2) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.2) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.2) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/static.rb:61:in `call'
+  railties (3.2.2) lib/rails/engine.rb:479:in `call'
+  railties (3.2.2) lib/rails/application.rb:220:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.2) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/cloudfactory/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/cloudfactory/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/cloudfactory/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/cloudfactory/.rvm/gems/ruby-2.1.2@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.2ms)
+
+
+Started POST "/projects" for 127.0.0.1 at 2015-05-19 08:55:50 +0545
+Processing by ProjectsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"K3vAWJcMeNAAKx+pq84odUhE69IMa+lWpgYJO5NFCkQ=", "project"=>{"title"=>"1", "abstract"=>"2", "description"=>"3", "budget"=>"4"}, "commit"=>"Create"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `projects` (`abstract`, `budget`, `created_at`, `description`, `title`, `updated_at`) VALUES ('2', 4.0, '2015-05-19 03:10:50', '3', '1', '2015-05-19 03:10:50')[0m
+  [1m[35m (0.4ms)[0m  COMMIT
+Redirected to http://localhost:3000/projects
+Completed 302 Found in 37ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2015-05-19 08:55:50 +0545
+Processing by ProjectsController#index as HTML
+  [1m[36mProject Load (0.4ms)[0m  [1mSELECT `projects`.* FROM `projects` [0m
+  Rendered projects/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 17ms (Views: 14.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/all.js" for 127.0.0.1 at 2015-05-19 08:55:50 +0545
+Served asset /all.js - 404 Not Found (2ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/all.js"):
+  actionpack (3.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.2) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.2) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.2) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/static.rb:61:in `call'
+  railties (3.2.2) lib/rails/engine.rb:479:in `call'
+  railties (3.2.2) lib/rails/application.rb:220:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.2) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/cloudfactory/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/cloudfactory/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/cloudfactory/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/cloudfactory/.rvm/gems/ruby-2.1.2@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/projects/15" for 127.0.0.1 at 2015-05-19 08:55:54 +0545
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"15"}
+  [1m[35mProject Load (0.4ms)[0m  SELECT `projects`.* FROM `projects` WHERE `projects`.`id` = 15 LIMIT 1
+  Rendered projects/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 11ms (Views: 9.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/all.js" for 127.0.0.1 at 2015-05-19 08:55:54 +0545
+Served asset /all.js - 404 Not Found (2ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/all.js"):
+  actionpack (3.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.2) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.2) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.2) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/static.rb:61:in `call'
+  railties (3.2.2) lib/rails/engine.rb:479:in `call'
+  railties (3.2.2) lib/rails/application.rb:220:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.2) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/cloudfactory/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/cloudfactory/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/cloudfactory/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/cloudfactory/.rvm/gems/ruby-2.1.2@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2015-05-19 08:57:08 +0545
+Connecting to database specified by database.yml
+Processing by ProjectsController#index as HTML
+  [1m[36mProject Load (0.4ms)[0m  [1mSELECT `projects`.* FROM `projects` [0m
+  Rendered projects/index.html.erb within layouts/application (9.5ms)
+Compiled bootstrap-theme.css  (0ms)  (pid 816)
+Compiled bootstrap-theme.css.map  (0ms)  (pid 816)
+Compiled bootstrap-theme.min.css  (0ms)  (pid 816)
+Compiled bootstrap.css  (0ms)  (pid 816)
+Compiled bootstrap.css.map  (2ms)  (pid 816)
+Compiled bootstrap.min.css  (1ms)  (pid 816)
+Warning. Error encountered while saving cache /Users/cloudfactory/Documents/getFunded/tmp/cache/sass/a3d4e6b53ae3de455a8c03805270b6c615192353/projects.css.scssc: can't dump anonymous class #<Class:0x007f90f4849090>
+
+Compiled projects.css  (27ms)  (pid 816)
+Compiled application.css  (79ms)  (pid 816)
+Compiled jquery.js  (6ms)  (pid 816)
+Compiled jquery_ujs.js  (0ms)  (pid 816)
+Compiled bootstrap.js  (1ms)  (pid 816)
+Compiled bootstrap.min.js  (0ms)  (pid 816)
+Compiled npm.js  (0ms)  (pid 816)
+Compiled projects.js  (398ms)  (pid 816)
+Compiled application.js  (470ms)  (pid 816)
+Completed 200 OK in 631.9ms (Views: 620.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-05-19 08:57:09 +0545
+Served asset /application.css - 200 OK (25ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-05-19 08:57:09 +0545
+Served asset /bootstrap.min.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2015-05-19 08:57:09 +0545
+Served asset /bootstrap-theme.min.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-05-19 08:57:09 +0545
+Served asset /bootstrap.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-theme.css.map?body=1" for 127.0.0.1 at 2015-05-19 08:57:09 +0545
+Served asset /bootstrap-theme.css.map - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2015-05-19 08:57:09 +0545
+Served asset /bootstrap-theme.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap.css.map?body=1" for 127.0.0.1 at 2015-05-19 08:57:09 +0545
+Served asset /bootstrap.css.map - 304 Not Modified (3ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-05-19 08:57:09 +0545
+Served asset /projects.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/all.js" for 127.0.0.1 at 2015-05-19 08:57:09 +0545
+Served asset /all.js - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/all.js"):
+  actionpack (3.2.20) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.20) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.20) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.20) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.20) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.20) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.20) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.20) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.20) lib/action_dispatch/middleware/static.rb:82:in `call'
+  railties (3.2.20) lib/rails/engine.rb:484:in `call'
+  railties (3.2.20) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.20) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/cloudfactory/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/cloudfactory/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/cloudfactory/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/cloudfactory/.rvm/gems/ruby-2.1.2@global/gems/actionpack-3.2.20/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-05-19 08:57:09 +0545
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-05-19 08:57:09 +0545
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/npm.js?body=1" for 127.0.0.1 at 2015-05-19 08:57:09 +0545
+Served asset /npm.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-05-19 08:57:09 +0545
+Served asset /bootstrap.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-05-19 08:57:09 +0545
+Served asset /application.js - 200 OK (21ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-05-19 08:57:09 +0545
+Served asset /bootstrap.min.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2015-05-19 08:57:09 +0545
+Served asset /projects.js - 304 Not Modified (2ms)
+
+
+Started DELETE "/projects/15" for 127.0.0.1 at 2015-05-19 08:57:12 +0545
+Processing by ProjectsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"K3vAWJcMeNAAKx+pq84odUhE69IMa+lWpgYJO5NFCkQ=", "id"=>"15"}
+  [1m[35mProject Load (1.2ms)[0m  SELECT `projects`.* FROM `projects` WHERE `projects`.`id` = 15 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (50.2ms)[0m  DELETE FROM `projects` WHERE `projects`.`id` = 15
+  [1m[36m (42.8ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/projects
+Completed 302 Found in 121.9ms (ActiveRecord: 94.4ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2015-05-19 08:57:12 +0545
+Processing by ProjectsController#index as HTML
+  [1m[35mProject Load (0.5ms)[0m  SELECT `projects`.* FROM `projects` 
+  Rendered projects/index.html.erb within layouts/application (15.7ms)
+Completed 200 OK in 32.6ms (Views: 30.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2015-05-19 08:57:12 +0545
+Served asset /bootstrap-theme.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-05-19 08:57:12 +0545
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-theme.css.map?body=1" for 127.0.0.1 at 2015-05-19 08:57:12 +0545
+Served asset /bootstrap-theme.css.map - 304 Not Modified (0ms)
+
+
+Started GET "/assets/all.js" for 127.0.0.1 at 2015-05-19 08:57:12 +0545
+Served asset /all.js - 404 Not Found (4ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/all.js"):
+  actionpack (3.2.20) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.20) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.20) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.20) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.20) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.20) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.20) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.20) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.20) lib/action_dispatch/middleware/static.rb:82:in `call'
+  railties (3.2.20) lib/rails/engine.rb:484:in `call'
+  railties (3.2.20) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.20) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/cloudfactory/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/cloudfactory/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/cloudfactory/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/cloudfactory/.rvm/gems/ruby-2.1.2@global/gems/actionpack-3.2.20/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/assets/bootstrap.css.map?body=1" for 127.0.0.1 at 2015-05-19 08:57:12 +0545
+Served asset /bootstrap.css.map - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2015-05-19 08:57:12 +0545
+Served asset /bootstrap-theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-05-19 08:57:12 +0545
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-05-19 08:57:12 +0545
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-05-19 08:57:12 +0545
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-05-19 08:57:12 +0545
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-05-19 08:57:12 +0545
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-05-19 08:57:12 +0545
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/npm.js?body=1" for 127.0.0.1 at 2015-05-19 08:57:12 +0545
+Served asset /npm.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2015-05-19 08:57:12 +0545
+Served asset /projects.js - 304 Not Modified (0ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2015-05-19 09:03:22 +0545
+Processing by ProjectsController#index as HTML
+  [1m[36mProject Load (0.3ms)[0m  [1mSELECT `projects`.* FROM `projects` [0m
+  Rendered projects/index.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 30.1ms (Views: 21.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/all.js" for 127.0.0.1 at 2015-05-19 09:03:22 +0545
+Served asset /all.js - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/all.js"):
+  actionpack (3.2.20) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.20) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.20) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.20) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.20) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.20) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.20) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.20) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.20) lib/action_dispatch/middleware/static.rb:82:in `call'
+  railties (3.2.20) lib/rails/engine.rb:484:in `call'
+  railties (3.2.20) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.20) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/cloudfactory/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/cloudfactory/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/cloudfactory/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/cloudfactory/.rvm/gems/ruby-2.1.2@global/gems/actionpack-3.2.20/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.5ms)
+
+
+Started GET "/assets/bootstrap-theme.css.map?body=1" for 127.0.0.1 at 2015-05-19 09:03:22 +0545
+Served asset /bootstrap-theme.css.map - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2015-05-19 09:03:22 +0545
+Served asset /bootstrap-theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-05-19 09:03:22 +0545
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-05-19 09:03:22 +0545
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-05-19 09:03:22 +0545
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-05-19 09:03:22 +0545
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css.map?body=1" for 127.0.0.1 at 2015-05-19 09:03:22 +0545
+Served asset /bootstrap.css.map - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-05-19 09:03:22 +0545
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-05-19 09:03:22 +0545
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2015-05-19 09:03:22 +0545
+Served asset /bootstrap-theme.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-05-19 09:03:22 +0545
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-05-19 09:03:22 +0545
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2015-05-19 09:03:22 +0545
+Served asset /projects.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-05-19 09:03:22 +0545
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/npm.js?body=1" for 127.0.0.1 at 2015-05-19 09:03:22 +0545
+Served asset /npm.js - 304 Not Modified (0ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2015-05-19 09:03:25 +0545
+Processing by ProjectsController#index as HTML
+  [1m[35mProject Load (0.3ms)[0m  SELECT `projects`.* FROM `projects` 
+  Rendered projects/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 20.7ms (Views: 19.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/all.js" for 127.0.0.1 at 2015-05-19 09:03:25 +0545
+Served asset /all.js - 404 Not Found (5ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/all.js"):
+  actionpack (3.2.20) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.20) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.20) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.20) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.20) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.20) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.20) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.20) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.20) lib/action_dispatch/middleware/static.rb:82:in `call'
+  railties (3.2.20) lib/rails/engine.rb:484:in `call'
+  railties (3.2.20) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.20) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/cloudfactory/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/cloudfactory/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/cloudfactory/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/cloudfactory/.rvm/gems/ruby-2.1.2@global/gems/actionpack-3.2.20/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.5ms)
+
+
+Started GET "/assets/bootstrap-theme.css.map?body=1" for 127.0.0.1 at 2015-05-19 09:03:25 +0545
+Served asset /bootstrap-theme.css.map - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2015-05-19 09:03:25 +0545
+Served asset /bootstrap-theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-05-19 09:03:25 +0545
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-05-19 09:03:25 +0545
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2015-05-19 09:03:25 +0545
+Served asset /bootstrap-theme.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css.map?body=1" for 127.0.0.1 at 2015-05-19 09:03:25 +0545
+Served asset /bootstrap.css.map - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-05-19 09:03:25 +0545
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-05-19 09:03:25 +0545
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-05-19 09:03:25 +0545
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-05-19 09:03:25 +0545
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-05-19 09:03:25 +0545
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-05-19 09:03:25 +0545
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/npm.js?body=1" for 127.0.0.1 at 2015-05-19 09:03:25 +0545
+Served asset /npm.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2015-05-19 09:03:25 +0545
+Served asset /projects.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-05-19 09:03:25 +0545
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2015-05-19 09:04:42 +0545
+Processing by ProjectsController#index as HTML
+  [1m[36mProject Load (0.3ms)[0m  [1mSELECT `projects`.* FROM `projects` [0m
+  Rendered projects/index.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 21.8ms (Views: 20.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/all.js" for 127.0.0.1 at 2015-05-19 09:04:42 +0545
+Served asset /all.js - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/all.js"):
+  actionpack (3.2.20) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.20) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.20) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.20) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.20) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.20) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.20) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.20) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.20) lib/action_dispatch/middleware/static.rb:82:in `call'
+  railties (3.2.20) lib/rails/engine.rb:484:in `call'
+  railties (3.2.20) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.20) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/cloudfactory/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/cloudfactory/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/cloudfactory/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/cloudfactory/.rvm/gems/ruby-2.1.2@global/gems/actionpack-3.2.20/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/assets/bootstrap-theme.css.map?body=1" for 127.0.0.1 at 2015-05-19 09:04:42 +0545
+Served asset /bootstrap-theme.css.map - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2015-05-19 09:04:42 +0545
+Served asset /bootstrap-theme.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-05-19 09:04:42 +0545
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2015-05-19 09:04:42 +0545
+Served asset /bootstrap-theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-05-19 09:04:42 +0545
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-05-19 09:04:42 +0545
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css.map?body=1" for 127.0.0.1 at 2015-05-19 09:04:42 +0545
+Served asset /bootstrap.css.map - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-05-19 09:04:42 +0545
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-05-19 09:04:42 +0545
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-05-19 09:04:42 +0545
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-05-19 09:04:42 +0545
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-05-19 09:04:42 +0545
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2015-05-19 09:04:43 +0545
+Served asset /projects.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/npm.js?body=1" for 127.0.0.1 at 2015-05-19 09:04:43 +0545
+Served asset /npm.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-05-19 09:04:43 +0545
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2015-05-19 09:04:53 +0545
+Processing by ProjectsController#index as HTML
+  [1m[35mProject Load (0.3ms)[0m  SELECT `projects`.* FROM `projects` 
+  Rendered projects/index.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 22.8ms (Views: 21.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-05-19 09:04:53 +0545
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2015-05-19 09:04:53 +0545
+Served asset /bootstrap-theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2015-05-19 09:04:53 +0545
+Served asset /bootstrap-theme.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-05-19 09:04:53 +0545
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-theme.css.map?body=1" for 127.0.0.1 at 2015-05-19 09:04:53 +0545
+Served asset /bootstrap-theme.css.map - 304 Not Modified (0ms)
+
+
+Started GET "/assets/all.js" for 127.0.0.1 at 2015-05-19 09:04:53 +0545
+Served asset /all.js - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/all.js"):
+  actionpack (3.2.20) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.20) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.20) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.20) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.20) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.20) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.20) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.20) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.20) lib/action_dispatch/middleware/static.rb:82:in `call'
+  railties (3.2.20) lib/rails/engine.rb:484:in `call'
+  railties (3.2.20) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.20) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/cloudfactory/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/cloudfactory/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/cloudfactory/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/cloudfactory/.rvm/gems/ruby-2.1.2@global/gems/actionpack-3.2.20/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/assets/bootstrap.css.map?body=1" for 127.0.0.1 at 2015-05-19 09:04:53 +0545
+Served asset /bootstrap.css.map - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-05-19 09:04:53 +0545
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-05-19 09:04:53 +0545
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-05-19 09:04:53 +0545
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-05-19 09:04:53 +0545
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-05-19 09:04:53 +0545
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-05-19 09:04:53 +0545
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/npm.js?body=1" for 127.0.0.1 at 2015-05-19 09:04:53 +0545
+Served asset /npm.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2015-05-19 09:04:53 +0545
+Served asset /projects.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-05-19 09:04:53 +0545
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/projects/top_hits" for 127.0.0.1 at 2015-05-19 09:04:54 +0545
+Processing by ProjectsController#top_hits as HTML
+Completed 500 Internal Server Error in 14.4ms
+
+ActionView::MissingTemplate (Missing template projects/top_hits, application/top_hits with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee]}. Searched in:
+  * "/Users/cloudfactory/Documents/getFunded/app/views"
+):
+  actionpack (3.2.20) lib/action_view/path_set.rb:58:in `find'
+  actionpack (3.2.20) lib/action_view/lookup_context.rb:122:in `find'
+  actionpack (3.2.20) lib/action_view/renderer/abstract_renderer.rb:3:in `find_template'
+  actionpack (3.2.20) lib/action_view/renderer/template_renderer.rb:34:in `determine_template'
+  actionpack (3.2.20) lib/action_view/renderer/template_renderer.rb:10:in `render'
+  actionpack (3.2.20) lib/action_view/renderer/renderer.rb:36:in `render_template'
+  actionpack (3.2.20) lib/action_view/renderer/renderer.rb:17:in `render'
+  actionpack (3.2.20) lib/abstract_controller/rendering.rb:110:in `_render_template'
+  actionpack (3.2.20) lib/action_controller/metal/streaming.rb:225:in `_render_template'
+  actionpack (3.2.20) lib/abstract_controller/rendering.rb:103:in `render_to_body'
+  actionpack (3.2.20) lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+  actionpack (3.2.20) lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+  actionpack (3.2.20) lib/abstract_controller/rendering.rb:88:in `render'
+  actionpack (3.2.20) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (3.2.20) lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+  activesupport (3.2.20) lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+  /Users/cloudfactory/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  activesupport (3.2.20) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  actionpack (3.2.20) lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+  actionpack (3.2.20) lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+  activerecord (3.2.20) lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+  actionpack (3.2.20) lib/action_controller/metal/instrumentation.rb:39:in `render'
+  actionpack (3.2.20) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (3.2.20) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (3.2.20) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.20) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.20) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.20) lib/active_support/callbacks.rb:414:in `_run__733901652184184389__process_action__1126422424630740743__callbacks'
+  activesupport (3.2.20) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.20) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.20) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.20) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.20) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.20) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.20) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.20) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.20) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.20) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.20) lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  activerecord (3.2.20) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.20) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.20) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.20) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.20) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.20) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.20) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.20) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.20) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.20) lib/action_dispatch/routing/route_set.rb:608:in `call'
+  actionpack (3.2.20) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.20) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.20) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.20) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.20) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.20) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.20) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.20) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.20) lib/active_support/callbacks.rb:405:in `_run__4294364696629148081__call__3399937624550623305__callbacks'
+  activesupport (3.2.20) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.20) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.20) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.20) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.20) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.20) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.20) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.20) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.20) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.20) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.20) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.20) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.20) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.20) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.20) lib/action_dispatch/middleware/static.rb:82:in `call'
+  railties (3.2.20) lib/rails/engine.rb:484:in `call'
+  railties (3.2.20) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.20) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/cloudfactory/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/cloudfactory/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/cloudfactory/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/cloudfactory/.rvm/gems/ruby-2.1.2@global/gems/actionpack-3.2.20/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.6ms)
+
+
+Started GET "/projects/top_hits" for 127.0.0.1 at 2015-05-19 09:06:45 +0545
+Processing by ProjectsController#top_hits as HTML
+Completed 500 Internal Server Error in 1.7ms
+
+ActionView::MissingTemplate (Missing template projects/top_hits, application/top_hits with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee]}. Searched in:
+  * "/Users/cloudfactory/Documents/getFunded/app/views"
+):
+  actionpack (3.2.20) lib/action_view/path_set.rb:58:in `find'
+  actionpack (3.2.20) lib/action_view/lookup_context.rb:122:in `find'
+  actionpack (3.2.20) lib/action_view/renderer/abstract_renderer.rb:3:in `find_template'
+  actionpack (3.2.20) lib/action_view/renderer/template_renderer.rb:34:in `determine_template'
+  actionpack (3.2.20) lib/action_view/renderer/template_renderer.rb:10:in `render'
+  actionpack (3.2.20) lib/action_view/renderer/renderer.rb:36:in `render_template'
+  actionpack (3.2.20) lib/action_view/renderer/renderer.rb:17:in `render'
+  actionpack (3.2.20) lib/abstract_controller/rendering.rb:110:in `_render_template'
+  actionpack (3.2.20) lib/action_controller/metal/streaming.rb:225:in `_render_template'
+  actionpack (3.2.20) lib/abstract_controller/rendering.rb:103:in `render_to_body'
+  actionpack (3.2.20) lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+  actionpack (3.2.20) lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+  actionpack (3.2.20) lib/abstract_controller/rendering.rb:88:in `render'
+  actionpack (3.2.20) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (3.2.20) lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+  activesupport (3.2.20) lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+  /Users/cloudfactory/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  activesupport (3.2.20) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  actionpack (3.2.20) lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+  actionpack (3.2.20) lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+  activerecord (3.2.20) lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+  actionpack (3.2.20) lib/action_controller/metal/instrumentation.rb:39:in `render'
+  actionpack (3.2.20) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (3.2.20) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (3.2.20) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.20) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.20) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.20) lib/active_support/callbacks.rb:414:in `_run__733901652184184389__process_action__1126422424630740743__callbacks'
+  activesupport (3.2.20) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.20) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.20) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.20) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.20) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.20) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.20) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.20) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.20) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.20) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.20) lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  activerecord (3.2.20) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.20) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.20) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.20) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.20) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.20) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.20) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.20) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.20) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.20) lib/action_dispatch/routing/route_set.rb:608:in `call'
+  actionpack (3.2.20) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.20) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.20) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.20) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.20) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.20) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.20) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.20) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.20) lib/active_support/callbacks.rb:405:in `_run__4294364696629148081__call__3399937624550623305__callbacks'
+  activesupport (3.2.20) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.20) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.20) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.20) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.20) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.20) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.20) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.20) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.20) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.20) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.20) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.20) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.20) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.20) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.20) lib/action_dispatch/middleware/static.rb:82:in `call'
+  railties (3.2.20) lib/rails/engine.rb:484:in `call'
+  railties (3.2.20) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.20) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/cloudfactory/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/cloudfactory/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/cloudfactory/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/cloudfactory/.rvm/gems/ruby-2.1.2@global/gems/actionpack-3.2.20/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.5ms)
+
+
+Started GET "/projects/7" for 127.0.0.1 at 2015-05-19 09:06:47 +0545
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mProject Load (0.3ms)[0m  [1mSELECT `projects`.* FROM `projects` WHERE `projects`.`id` = 7 LIMIT 1[0m
+  Rendered projects/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 23.6ms (Views: 15.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/all.js" for 127.0.0.1 at 2015-05-19 09:06:47 +0545
+Served asset /all.js - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/all.js"):
+  actionpack (3.2.20) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.20) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.20) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.20) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.20) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.20) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.20) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.20) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.20) lib/action_dispatch/middleware/static.rb:82:in `call'
+  railties (3.2.20) lib/rails/engine.rb:484:in `call'
+  railties (3.2.20) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.20) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/cloudfactory/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/cloudfactory/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/cloudfactory/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/cloudfactory/.rvm/gems/ruby-2.1.2@global/gems/actionpack-3.2.20/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-05-19 09:06:47 +0545
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2015-05-19 09:06:47 +0545
+Served asset /bootstrap-theme.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-theme.css.map?body=1" for 127.0.0.1 at 2015-05-19 09:06:47 +0545
+Served asset /bootstrap-theme.css.map - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css.map?body=1" for 127.0.0.1 at 2015-05-19 09:06:47 +0545
+Served asset /bootstrap.css.map - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2015-05-19 09:06:47 +0545
+Served asset /bootstrap-theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-05-19 09:06:47 +0545
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-05-19 09:06:47 +0545
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-05-19 09:06:48 +0545
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-05-19 09:06:48 +0545
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-05-19 09:06:48 +0545
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-05-19 09:06:48 +0545
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-05-19 09:06:48 +0545
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/npm.js?body=1" for 127.0.0.1 at 2015-05-19 09:06:48 +0545
+Served asset /npm.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2015-05-19 09:06:48 +0545
+Served asset /projects.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-05-19 09:06:48 +0545
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/projects/7/edit" for 127.0.0.1 at 2015-05-19 09:06:50 +0545
+Processing by ProjectsController#edit as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mProject Load (0.6ms)[0m  SELECT `projects`.* FROM `projects` WHERE `projects`.`id` = 7 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `projects`.* FROM `projects` WHERE `projects`.`id` = 7 LIMIT 1[0m
+  Rendered projects/_form.html.erb (43.2ms)
+  Rendered projects/edit.html.erb within layouts/application (57.8ms)
+Completed 200 OK in 75.8ms (Views: 72.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/all.js" for 127.0.0.1 at 2015-05-19 09:06:50 +0545
+Served asset /all.js - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/all.js"):
+  actionpack (3.2.20) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.20) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.20) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.20) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.20) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.20) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.20) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.20) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.20) lib/action_dispatch/middleware/static.rb:82:in `call'
+  railties (3.2.20) lib/rails/engine.rb:484:in `call'
+  railties (3.2.20) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.20) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/cloudfactory/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/cloudfactory/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/cloudfactory/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/cloudfactory/.rvm/gems/ruby-2.1.2@global/gems/actionpack-3.2.20/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-05-19 09:06:50 +0545
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css.map?body=1" for 127.0.0.1 at 2015-05-19 09:06:50 +0545
+Served asset /bootstrap.css.map - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-05-19 09:06:50 +0545
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2015-05-19 09:06:50 +0545
+Served asset /bootstrap-theme.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2015-05-19 09:06:50 +0545
+Served asset /bootstrap-theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-theme.css.map?body=1" for 127.0.0.1 at 2015-05-19 09:06:50 +0545
+Served asset /bootstrap-theme.css.map - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-05-19 09:06:50 +0545
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-05-19 09:06:50 +0545
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-05-19 09:06:50 +0545
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-05-19 09:06:50 +0545
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-05-19 09:06:50 +0545
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-05-19 09:06:50 +0545
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/npm.js?body=1" for 127.0.0.1 at 2015-05-19 09:06:50 +0545
+Served asset /npm.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-05-19 09:06:50 +0545
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2015-05-19 09:06:50 +0545
+Served asset /projects.js - 304 Not Modified (0ms)
+
+
+Started GET "/projects/new" for 127.0.0.1 at 2015-05-19 09:06:57 +0545
+Processing by ProjectsController#new as HTML
+  Rendered projects/_form.html.erb (2.6ms)
+  Rendered projects/new.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 19.2ms (Views: 17.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2015-05-19 09:06:57 +0545
+Served asset /bootstrap-theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2015-05-19 09:06:57 +0545
+Served asset /bootstrap-theme.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css.map?body=1" for 127.0.0.1 at 2015-05-19 09:06:57 +0545
+Served asset /bootstrap.css.map - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-theme.css.map?body=1" for 127.0.0.1 at 2015-05-19 09:06:57 +0545
+Served asset /bootstrap-theme.css.map - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-05-19 09:06:57 +0545
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-05-19 09:06:57 +0545
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-05-19 09:06:57 +0545
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-05-19 09:06:57 +0545
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/all.js" for 127.0.0.1 at 2015-05-19 09:06:57 +0545
+Served asset /all.js - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/all.js"):
+  actionpack (3.2.20) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.20) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.20) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.20) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.20) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.20) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.20) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.20) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.20) lib/action_dispatch/middleware/static.rb:82:in `call'
+  railties (3.2.20) lib/rails/engine.rb:484:in `call'
+  railties (3.2.20) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.20) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/cloudfactory/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/cloudfactory/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/cloudfactory/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/cloudfactory/.rvm/gems/ruby-2.1.2@global/gems/actionpack-3.2.20/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-05-19 09:06:57 +0545
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-05-19 09:06:57 +0545
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-05-19 09:06:57 +0545
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-05-19 09:06:57 +0545
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/npm.js?body=1" for 127.0.0.1 at 2015-05-19 09:06:57 +0545
+Served asset /npm.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2015-05-19 09:06:57 +0545
+Served asset /projects.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-05-19 09:06:57 +0545
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/projects/top_hits" for 127.0.0.1 at 2015-05-19 09:06:59 +0545
+Processing by ProjectsController#top_hits as HTML
+Completed 500 Internal Server Error in 2.6ms
+
+ActionView::MissingTemplate (Missing template projects/top_hits, application/top_hits with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee]}. Searched in:
+  * "/Users/cloudfactory/Documents/getFunded/app/views"
+):
+  actionpack (3.2.20) lib/action_view/path_set.rb:58:in `find'
+  actionpack (3.2.20) lib/action_view/lookup_context.rb:122:in `find'
+  actionpack (3.2.20) lib/action_view/renderer/abstract_renderer.rb:3:in `find_template'
+  actionpack (3.2.20) lib/action_view/renderer/template_renderer.rb:34:in `determine_template'
+  actionpack (3.2.20) lib/action_view/renderer/template_renderer.rb:10:in `render'
+  actionpack (3.2.20) lib/action_view/renderer/renderer.rb:36:in `render_template'
+  actionpack (3.2.20) lib/action_view/renderer/renderer.rb:17:in `render'
+  actionpack (3.2.20) lib/abstract_controller/rendering.rb:110:in `_render_template'
+  actionpack (3.2.20) lib/action_controller/metal/streaming.rb:225:in `_render_template'
+  actionpack (3.2.20) lib/abstract_controller/rendering.rb:103:in `render_to_body'
+  actionpack (3.2.20) lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+  actionpack (3.2.20) lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+  actionpack (3.2.20) lib/abstract_controller/rendering.rb:88:in `render'
+  actionpack (3.2.20) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (3.2.20) lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+  activesupport (3.2.20) lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+  /Users/cloudfactory/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  activesupport (3.2.20) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  actionpack (3.2.20) lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+  actionpack (3.2.20) lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+  activerecord (3.2.20) lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+  actionpack (3.2.20) lib/action_controller/metal/instrumentation.rb:39:in `render'
+  actionpack (3.2.20) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (3.2.20) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (3.2.20) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.20) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.20) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.20) lib/active_support/callbacks.rb:414:in `_run__733901652184184389__process_action__1126422424630740743__callbacks'
+  activesupport (3.2.20) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.20) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.20) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.20) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.20) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.20) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.20) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.20) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.20) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.20) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.20) lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  activerecord (3.2.20) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.20) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.20) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.20) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.20) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.20) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.20) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.20) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.20) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.20) lib/action_dispatch/routing/route_set.rb:608:in `call'
+  actionpack (3.2.20) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.20) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.20) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.20) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.20) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.20) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.20) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.20) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.20) lib/active_support/callbacks.rb:405:in `_run__4294364696629148081__call__3399937624550623305__callbacks'
+  activesupport (3.2.20) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.20) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.20) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.20) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.20) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.20) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.20) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.20) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.20) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.20) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.20) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.20) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.20) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.20) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.20) lib/action_dispatch/middleware/static.rb:82:in `call'
+  railties (3.2.20) lib/rails/engine.rb:484:in `call'
+  railties (3.2.20) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.20) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/cloudfactory/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/cloudfactory/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/cloudfactory/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/cloudfactory/.rvm/gems/ruby-2.1.2@global/gems/actionpack-3.2.20/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.5ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/projects/top_hits" for 127.0.0.1 at 2015-05-19 09:08:31 +0545
+Processing by ProjectsController#top_hits as HTML
+  [1m[35mProject Load (21.1ms)[0m  SELECT `projects`.* FROM `projects` WHERE (budget > 2000000)
+  Rendered projects/top_hits.html.erb within layouts/application (31.1ms)
+Completed 200 OK in 47.2ms (Views: 25.7ms | ActiveRecord: 21.1ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2015-05-19 09:08:31 +0545
+Served asset /bootstrap-theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-theme.css.map?body=1" for 127.0.0.1 at 2015-05-19 09:08:31 +0545
+Served asset /bootstrap-theme.css.map - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-05-19 09:08:31 +0545
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-05-19 09:08:31 +0545
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-05-19 09:08:31 +0545
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css.map?body=1" for 127.0.0.1 at 2015-05-19 09:08:31 +0545
+Served asset /bootstrap.css.map - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-05-19 09:08:31 +0545
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2015-05-19 09:08:31 +0545
+Served asset /bootstrap-theme.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/all.js" for 127.0.0.1 at 2015-05-19 09:08:31 +0545
+Served asset /all.js - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/all.js"):
+  actionpack (3.2.20) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.20) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.20) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.20) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.20) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.20) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.20) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.20) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.20) lib/action_dispatch/middleware/static.rb:82:in `call'
+  railties (3.2.20) lib/rails/engine.rb:484:in `call'
+  railties (3.2.20) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.20) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/cloudfactory/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/cloudfactory/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/cloudfactory/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/cloudfactory/.rvm/gems/ruby-2.1.2@global/gems/actionpack-3.2.20/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-05-19 09:08:31 +0545
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-05-19 09:08:31 +0545
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-05-19 09:08:31 +0545
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-05-19 09:08:31 +0545
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/npm.js?body=1" for 127.0.0.1 at 2015-05-19 09:08:31 +0545
+Served asset /npm.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2015-05-19 09:08:31 +0545
+Served asset /projects.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-05-19 09:08:31 +0545
+Served asset /application.js - 304 Not Modified (0ms)
